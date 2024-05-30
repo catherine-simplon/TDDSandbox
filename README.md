@@ -104,7 +104,7 @@ En répétant les mêmes étapes que l'étape 4, créer le test, puis la fonctio
 
 ### Etape 7 : 
 
-a. Dans le fichier `test_geometrie.js`, dupliquer le `describe` renommer le nouveau `describe` obtenu en `Géométrie cube class`. Puis importer la classe `Cube`.
+a. Dans le fichier `test_geometrie.js`, dupliquer le `describe` renommer le nouveau `describe` obtenu en `Géométrie cube class`. Puis importer la classe `Cube` avec `const Cube = require(' path to cube.js ').Cube;`
 
 b. Modifier les différents tests dans ce nouveau `describe` pour utiliser la classe `Cube` et les méthodes de calcul (au lieu des fonctions de `geometrie.js`).
 
