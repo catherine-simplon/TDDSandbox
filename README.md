@@ -18,7 +18,7 @@ _How it should be done :_
 
 a. Créer un dossier TDDSandbox et l'ouvrir dans VSCode
 
-b. Dans le terminal, initialiser le projet avec `npn init -y` (initialisation par défaut)
+b. Dans le terminal, initialiser le projet avec `npm init -y` (initialisation par défaut)
 
 c. Installer Mocha, Chai : `npm install --save-dev mocha chai`
 
@@ -34,7 +34,7 @@ e. Ignorer `node_modules` dans un `.gitignore`.
 f. Créer un dossier `test` dans le dossier du projet.
 
 
-Rappel : pour lancer les tests `npm test`
+Rappel : pour lancer les tests `npm test` et pour lancer un fichier en particuler : `mocha test/autre_dossier/nom_du_fichier(sans .js)`
 Sources : https://mochajs.org/#getting-started
 
 
